@@ -23,7 +23,7 @@ A modern and responsive website designed to showcase technological services with
 
 The best free stock photos, royalty-free images & videos shared by creators.
 
-**[Explore Pexels]([gahahah](https://www.pexels.com/id-id/)**
+**[Explore Pexels](https://www.pexels.com/id-id/)**
 ---
 ## 📜 Use License
 ### You Are Allowed:

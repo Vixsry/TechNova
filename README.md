@@ -19,13 +19,19 @@ A modern and responsive website designed to showcase technological services with
 -**Font Google**
   **[Explore Google Font](https://fonts.google.com/)**
 ---
+## 📸 Picture IMG
+
+The best free stock photos, royalty-free images & videos shared by creators.
+
+**[Explore Pexels]([gahahah](https://www.pexels.com/id-id/)**
+---
 ## 📜 Use License
 ### You Are Allowed:
 - Use this template for both **personal** and **commercial** purposes. - Easily customize templates according to your needs.
 
 ### You Are Not Allowed: 
 - Remove or change this template's author attribution.
-
+---
 ## ⚠️ Important Note
 This template uses elements and libraries from third parties, each of which has a different license. Be sure to read and comply with the applicable license terms of each of the following libraries:
 

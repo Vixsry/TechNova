@@ -1,5 +1,7 @@
 # TechNova
 
+[Demo Test](https://vixsry.github.io/TechNova/)
+
 A modern and responsive website designed to showcase technological services with sleek aesthetics and efficient navigation.
 ---
 ## Features

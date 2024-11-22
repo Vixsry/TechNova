@@ -1,32 +1,19 @@
 # TechNova
-
-Sebuah website modern yang dirancang untuk menampilkan layanan teknologi dengan desain yang responsif dan profesional.
-
-## Fitur Utama
-1. **Navbar Interaktif**:
-   - Bagian: Home, Services, About, Portfolio, FAQ, Terms, Privacy, Disclaimer, Contact.
-   - Dropdown menu untuk informasi tambahan.
-
-2. **Halaman Utama**:
-   - Hero section dengan slogan dan tombol navigasi.
-   - Deskripsi singkat layanan.
-
-3. **Bagian About**:
-   - Penjelasan perusahaan dan tim kerja.
-
-4. **Layanan**:
-   - Prototype Faster.
-   - Design Layouts.
-   - Export to Code.
-
-5. **Footer**:
-   - Quick links ke halaman penting.
-   - Newsletter subscription.
-
-## Teknologi yang Digunakan
-- **HTML5**: Struktur halaman.
-- **CSS3**: Styling dan tata letak.
-- **Bootstrap**: Responsivitas dan komponen UI.
-- **Font Awesome**: Ikon untuk navigasi dan elemen visual.
-
-## Struktur File
+--
+A modern and responsive website designed to showcase technological services with sleek aesthetics and efficient navigation.
+--
+## Features
+- **Interactive Navbar**: Links to various sections including Home, Services, About, Portfolio, FAQ, and Contact.
+- **Hero Section**: Engaging slogan with call-to-action buttons.
+- **Services Section**: Highlights features such as *Prototype Faster*, *Design Layouts*, and *Export to Code*.
+- **About Section**: Company mission and team overview.
+- **Footer**: Quick links, contact information, and a newsletter subscription form.
+--
+## Technologies Used
+- **HTML5**: Structuring web content.
+- **CSS3**: Styling and layout customization.
+- **Bootstrap**: Responsive design and UI components.  
+  **[Get Bootstrap Here](https://getbootstrap.com/)**
+- **Font Awesome**: For sleek and customizable icons.  
+  **[Explore Font Awesome](https://fontawesome.com/)**
+--

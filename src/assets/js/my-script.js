@@ -1,45 +1,24 @@
-document.addEventListener("DOMContentLoaded", () => {
-    // Back to Top
-    const backToTop = document.querySelector('.back-to-top');
-    const aboutSection = document.querySelector('#about'); // Elemen About
+document.addEventListener("DOMContentLoaded", function () {
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarCollapse = document.querySelector('#navbarNav');
 
-    function toggleBackToTop() {
-        if (!aboutSection) return; // Jika elemen tidak ditemukan, hentikan fungsi.
-
-        const aboutRect = aboutSection.getBoundingClientRect();
-        const isVisible = aboutRect.top <= window.innerHeight && aboutRect.bottom >= 0;
-
-        if (isVisible) {
-            backToTop.style.display = 'flex'; // Tampilkan tombol
-        } else {
-            backToTop.style.display = 'none'; // Sembunyikan tombol
-        }
-    }
-
-    // Navbar
-    const navbarNav = document.getElementById("navbarNav");
-    const navLinks = document.querySelectorAll(".nav-link");
-    const dropdownItems = document.querySelectorAll(".dropdown-item");
-
-    // Prevent dropdown from closing when clicking on a dropdown item
-    dropdownItems.forEach(item => {
-        item.addEventListener("click", (event) => {
-            event.stopPropagation(); // Prevent the dropdown menu from closing
-        });
-    });
-
-    // Close navbar when nav-link (non-dropdown) is clicked
-    navLinks.forEach(link => {
-        link.addEventListener("click", () => {
-            if (navbarNav.classList.contains("show")) {
-                const navbarToggler = document.querySelector(".navbar-toggler");
-                if (navbarToggler) {
-                    navbarToggler.click();
-                }
+    if (navbarToggler && navbarCollapse) {
+        document.addEventListener('click', function (event) {
+            const isClickInsideNavbar = navbarCollapse.contains(event.target) || navbarToggler.contains(event.target);
+            if (!isClickInsideNavbar && navbarCollapse.classList.contains('show')) {
+                navbarCollapse.classList.remove('show');
             }
         });
-    });
 
-    // Listen to scroll for back-to-top functionality
-    window.addEventListener('scroll', toggleBackToTop);
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function () {
+                if (navbarCollapse.classList.contains('show')) {
+                    navbarCollapse.classList.remove('show');
+                }
+            });
+        });
+    } else {
+        console.error("Navbar elements not found. Please check your HTML.");
+    }
 });

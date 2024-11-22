@@ -29,4 +29,8 @@ Sebuah website modern yang dirancang untuk menampilkan layanan teknologi dengan 
 - **Bootstrap**: Responsivitas dan komponen UI.
 - **Font Awesome**: Ikon untuk navigasi dan elemen visual.
 ---
-## 📜 Use License ### You Are Allowed: - Use this template for both **personal** and **commercial** purposes. - Easily customize templates according to your needs. ### You Are Not Allowed: - Remove or change this template's author attribution. --- ## ⚠️ Important Note This template uses elements and libraries from third parties, each of which has a different license. Be sure to read and comply with the applicable license terms of each of the following libraries: - **Awesome Fonts**: [Awesome Fonts License](https://fontawesome.com/license/free) - **Bootstrap**: [Bootstrap License](https://getbootstrap.com/docs/5.0/getting-started/introduction/#license) - **AOS Animation**: [AOS License](https://github.com/michalsnik/aos/blob/master/LICENSE)
+## 📜 Use License ### You Are Allowed: - Use this template for both **personal** and **commercial** purposes. - Easily customize templates according to your needs.
+
+### You Are Not Allowed: - Remove or change this template's author attribution. --- 
+
+## ⚠️ Important Note This template uses elements and libraries from third parties, each of which has a different license. Be sure to read and comply with the applicable license terms of each of the following libraries: - **Awesome Fonts**: [Awesome Fonts License](https://fontawesome.com/license/free) - **Bootstrap**: [Bootstrap License](https://getbootstrap.com/docs/5.0/getting-started/introduction/#license) - **AOS Animation**: [AOS License](https://github.com/michalsnik/aos/blob/master/LICENSE)

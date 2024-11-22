@@ -42,3 +42,8 @@ This template uses elements and libraries from third parties, each of which has 
 - **AOS Animation**: [License AOS](https://github.com/michalsnik/aos/blob/master/LICENSE)
 
 - **Google Font**: [License Google Font](https://fonts.google.com/knowledge/glossary/licensing)
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vixsry/TechNova.git

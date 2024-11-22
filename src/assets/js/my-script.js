@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Back to Top
     const backToTop = document.querySelector('.back-to-top');
-    const aboutSection = document.querySelector('#services'); // Elemen About
+    const aboutSection = document.querySelector('#about'); // Elemen About
 
     function toggleBackToTop() {
         if (!aboutSection) return; // Jika elemen tidak ditemukan, hentikan fungsi.

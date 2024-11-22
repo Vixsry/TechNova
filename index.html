@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>TechNova</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon/favicon.png">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+<!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+       <a class="navbar-brand"><img class="logo-image" src="src/assets/img/logo.png" alt="Logo"><b> TechNova</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                        <li><a class="dropdown-item" href="privacy.html">Terms</a></li>
+                        <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
+                        <li><a class="dropdown-item" href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    
+    <!-- Home Section -->
+    <section id="home" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <h1 class="display-3 mb-4">TechNova Solutions</h1>
+                    <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#services" class="btn btn-light btn-lg">Explore Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up"></h2>
+        <div class="row align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="glass-card p-4">
+                    <h3>About</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+                        <div class="col-md-6" data-aos="fade-up">
+                            <div class="row">
+                                <div class="col-6 mb-4 team-member">
+                                    <img src="src/assets/img/About.jpg" class="img-fluid" alt="Team Member">
+                                    <div class="team-overlay">
+                                        <div class="team-social">
+                                            <i class="fab fa-linkedin mx-2"></i>
+                                            <i class="fab fa-twitter mx-2"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-4 team-member">
+                                    <img src="src/assets/img/About-2.jpg" class="img-fluid" alt="Team Member">
+                                    <div class="team-overlay">
+                                        <div class="team-social">
+                                            <i class="fab fa-linkedin mx-2"></i>
+                                            <i class="fab fa-twitter mx-2"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</section>
+    
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center col-md-2 mb-4" data-aos="fade-up">Services</h2>
+            <p class="text-center col-md-4 mb-4" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="glass-card p-4 text-center">
+                        <i class="fas fa-rocket service-icon"></i>
+                        <h3>Prototype Faster</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="glass-card p-4 text-center">
+                        <i class="fas fa-tv service-icon"></i>
+                        <h3>Design Layouts</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="glass-card p-4 text-center">
+                        <i class="fas fa-code service-icon"></i>
+                        <h3>Export To Code</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8" data-aos="fade-up">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-contact">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-glass">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="footer-logo">
+                        TechNova
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <!-- Quick Links Column -->
+                <div class="col-md-2 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services Column -->
+                <div class="col-md-2 mb-4">
+                    <h5>Useful Link</h5>
+                    <ul class="footer-links">
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="terms.html">Terms</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Column -->
+                <div class="col-md-4 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <form class="newsletter-form">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                            <button class="btn" type="submit">Daftar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Social Link -->
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        
+        
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom mt-4">
+            <div class="container">
+                <p>&copy; 2024 Bussines Name. All Rights Reserved.</p>
+                <a href="https://vixsry.github.io/portfolio/" class="custom-link">
+            <i class="fas fa-heart text-bold"></i> Design By Viksry
+        </a>
+            </div>
+        </div>
+    </footer>
+    
+    <a href="#" class="back-to-top" data-aos="fade-up" data-aos-offset="0">
+    <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="src/assets/js/aos.js"></script>
+    
+    <!-- SSCRIPT JS -->
+    <script src="src/assets/js/my-script.js"></script>
+</body>
+</html>

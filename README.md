@@ -16,6 +16,8 @@ A modern and responsive website designed to showcase technological services with
   **[Get Bootstrap Here](https://getbootstrap.com/)**
 - **Font Awesome**: For sleek and customizable icons.  
   **[Explore Font Awesome](https://fontawesome.com/)**
+-**Font Google**
+  **[Explore Google Font](https://fonts.google.com/)**
 ---
 ## 📜 Use License
 ### You Are Allowed:
